@@ -1,0 +1,27 @@
+logo:
+  text: 高维数据-内部研发文档
+  type: link
+  path: index.html
+
+main:
+  - text: 前端基建
+    type: label
+    children:
+      - text: 前端规范
+        type: link
+        path: standard/index.html
+      - text: 接口规范
+        type: link
+        path: standard/interface.html
+  - text: 中间件
+    type: label
+    children:
+      - text: nginx
+        type: link
+        path: middleware/nginx.html
+  - text: 容器云
+    type: label
+    children:
+      - text: kubeadm单主多节点集群
+        type: link
+        path: k8s/kubeadm.html
